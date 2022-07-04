@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Asssigement_PRN211_Se1621\\Ass02Solution\\BuisinessObject\\BuisinessObject.csproj",
-      "projectName": "BuisinessObject",
-      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Asssigement_PRN211_Se1621\\Ass02Solution\\BuisinessObject\\BuisinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Asssigement_PRN211_Se1621\\Ass02Solution\\BuisinessObject\\BusinessObject.csproj",
+      "projectName": "BusinessObject",
+      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Asssigement_PRN211_Se1621\\Ass02Solution\\BuisinessObject\\BusinessObject.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Asssigement_PRN211_Se1621\\Ass02Solution\\BuisinessObject\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,16 +1,25 @@
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Windows.Forms;
+
+
 namespace SalesWinApp
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+        
+        public static IConfiguration Configuration;
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
+          var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+          Configuration = builder.Build();
+
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+         //   ApplicationConfiguration.Initialize();
             Application.Run(new frmLogin());
         }
     }
